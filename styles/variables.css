@@ -1,0 +1,14 @@
+:root {
+  --accent: #3377aa;
+  --accent-dark: #144971;
+  --accent-light: #5aa7e1;
+  --background: #ffffff;
+  --muted: #999999;
+  --muted-dark: #707070;
+  --muted-light: #bbbbbb;
+  --spacer: 16px;
+  --spacer-half: 8px;
+  --spacer-quarter: 4px;
+  --text: #151515;
+  --text-inverted: #ffffff;
+}
