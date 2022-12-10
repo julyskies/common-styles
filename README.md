@@ -1,14 +1,35 @@
-## Common project styles
+## common-styles
 
-This module provides common module styles for the projects
+This module provides common CSS styles for WEB applications
 
 ### Install
-
-This module is not published to NPM, it can be installed directly from Github
 
 ```shell script
 npm i github:julyskies/common-styles
 ```
+
+### Usage
+
+###### React
+
+```jsx
+// index.ts
+
+// TODO
+```
+
+###### Vue
+
+```typescript
+// main.ts
+import { createApp } from 'vue';
+import 'common-styles/styles.css';
+
+import App from './App.vue'
+
+...
+```
+
 
 ### License
 

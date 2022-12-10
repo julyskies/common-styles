@@ -17,13 +17,18 @@ html, body {
 }
 
 ::selection {
-  color: var(--text-inverted);
   background: var(--accent);
+  color: var(--text-inverted);
 }
 
 ::-moz-selection {
-  color: var(--text-inverted);
   background: var(--accent);
+  color: var(--text-inverted);
+}
+
+a, a:visited {
+  color: var(--accent);
+  text-decoration: none;
 }
 
 button {
