@@ -1,6 +1,6 @@
 ## common-styles
 
-This module provides common CSS styles for WEB applications
+Common CSS styles for WEB applications
 
 ### Install
 

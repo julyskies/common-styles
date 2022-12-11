@@ -9,7 +9,7 @@
   -webkit-text-size-adjust: 100%;
 }
 
-html, body {
+html, body, textarea {
   background-color: var(--background);
   color: var(--text);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',

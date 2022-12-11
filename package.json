@@ -2,7 +2,7 @@
   "name": "common-styles",
   "private": false,
   "version": "1.0.0",
-  "description": "This module provides common CSS styles for WEB applications",
+  "description": "Common CSS styles for WEB applications",
   "author": {
     "name": "Peter Dyumin",
     "url": "https://github.com/peterdee"
