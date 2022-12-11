@@ -18,7 +18,7 @@
     opacity: 0;
   }
 }
-.fade-in {
+.fade-out {
   animation: fade-out var(--transition) linear;
   opacity: 0;
 }
