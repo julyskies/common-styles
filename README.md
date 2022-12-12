@@ -10,15 +10,31 @@ npm i github:julyskies/common-styles
 
 ### Usage
 
-###### React
+##### NextJS
+
+```jsx
+// _app.tsx
+import React from 'react';
+import type { AppProps } from 'next/app';
+import 'common-styles/styles.css';
+
+...
+```
+
+##### React
 
 ```jsx
 // index.ts
+import React from 'react';
+import ReactDOM from 'react-dom';
+import 'common-styles/styles.css';
 
-// TODO
+import App from './App';
+
+...
 ```
 
-###### Vue
+##### Vue
 
 ```typescript
 // main.ts
