@@ -109,6 +109,11 @@ import App from './App.vue'
 - mb-2
 - mb-half
 - mb-quarter
+- **mh-auto** *(margin-horizontal-auto)*
+- **mh-1** *(margin-horizontal-1)*
+- **mh-2** *(margin-horizontal-2)*
+- **mh-half** *(margin-horizontal-half)*
+- **mh-quarter** *(margin-horizontal-quarter)*
 - ml-1
 - ml-2
 - ml-half
@@ -121,6 +126,11 @@ import App from './App.vue'
 - mt-2
 - mt-half
 - mt-quarter
+- **mv-auto** *(margin-vertical-auto)*
+- **mv-1** *(margin-vertical-1)*
+- **mv-2** *(margin-vertical-2)*
+- **mv-half** *(margin-vertical-half)*
+- **mv-quarter** *(margin-vertical-quarter)*
 - p-1
 - p-2
 - p-half
