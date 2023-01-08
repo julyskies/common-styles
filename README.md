@@ -5,7 +5,7 @@ Common CSS styles for WEB applications
 ### Install
 
 ```shell script
-npm i github:julyskies/common-styles
+npm i github:julyskies/common-styles@latest
 ```
 
 ### Usage
