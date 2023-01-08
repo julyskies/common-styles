@@ -13,6 +13,12 @@
 .flex, .f {
   display: flex;
 }
+.flex-nowrap, .f-nowrap {
+  flex-wrap: nowrap;
+}
+.flex-wrap, .f-wrap {
+  flex-wrap: wrap;
+}
 .justify-center, .j-center {
   justify-content: center;
 }

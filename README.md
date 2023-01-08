@@ -92,7 +92,9 @@ import App from './App.vue'
 - aign-items-center / ai-center
 - direction-column / d-col
 - direction-row / d-row
-- flex / f
+- **flex / f** *(display: flex)*
+- **flex-wrap / f-wrap** *(flex-wrap: wrap)*
+- **flex-nowrap / f-nowrap** *(flex-wrap: nowrap)*
 - justify-center / j-center
 - justify-end / j-end
 - justify-space-around / j-space-around

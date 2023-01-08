@@ -1,7 +1,7 @@
 {
   "name": "common-styles",
   "private": false,
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Common CSS styles for WEB applications",
   "author": {
     "name": "Peter Dyumin",
