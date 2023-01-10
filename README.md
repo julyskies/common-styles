@@ -154,6 +154,12 @@ import App from './App.vue'
 - pt-half
 - pt-quarter
 
+##### Tags
+
+- **button**
+- **input[type=number]**
+- **input[type=text]**
+
 ##### Utility classes
 
 - noselect / ns
