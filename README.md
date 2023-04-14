@@ -5,7 +5,7 @@ Common CSS styles for WEB applications
 ### Install
 
 ```shell script
-npm i github:julyskies/common-styles@latest
+npm i github:julyskies/common-styles
 ```
 
 ### Usage
@@ -156,9 +156,10 @@ import App from './App.vue'
 
 ##### Tags
 
+Tags are now represented as **classes**
+
 - **button**
-- **input[type=number]**
-- **input[type=text]**
+- **input**
 
 ##### Utility classes
 

@@ -31,7 +31,7 @@ a, a:visited {
   text-decoration: none;
 }
 
-button {
+.button {
   background-color: var(--accent);
   border: none;
   border-radius: var(--spacer-quarter);
@@ -42,18 +42,18 @@ button {
   padding: 0 var(--spacer);
   transition: background-color var(--transition) ease-out;
 }
-button:hover {
+.button:hover {
   background-color: var(--accent-light);
   cursor: pointer;
   transition: background-color var(--transition) ease-in;
 }
-button:disabled {
+.button:disabled {
   background-color: var(--muted-light);
   cursor: default;
   transition: background-color var(--transition) ease-in;
 }
 
-input[type=number], input[type=text] {
+.input {
   background-color: var(--background);
   border: 1px solid var(--accent);
   border-radius: var(--spacer-quarter);
@@ -64,17 +64,16 @@ input[type=number], input[type=text] {
   padding: 0 var(--spacer);
   transition: border var(--transition) ease-out;
 }
-input[type=number]:focus, input[type=number]:hover,
-  input[type=text]:focus, input[type=text]:hover {
+.input:focus, .input:hover {
   border: 1px solid var(--accent-light);
   transition: border var(--transition) ease-in;
 }
-input[type=number]:disabled, input[type=text]:disabled {
+.input:disabled {
   border: 1px solid var(--muted-light);
   color: var(--muted-light);
   cursor: default;
   transition: border var(--transition) ease-in, color var(--transition) ease-in;
 }
-input[type=number]::placeholder, input[type=text]::placeholder {
+.input::placeholder {
   color: var(--muted-light);
 }
