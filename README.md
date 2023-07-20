@@ -172,10 +172,16 @@ import App from './App.vue'
 
 ##### Tags
 
-Tags are now represented as **classes**
+Margin and padding is removed for all of the tags.
 
-- **button**
-- **input**
+Altered tags
+
+- a
+
+Tag-specific styles represented as **classes**
+
+- button
+- input
 
 ##### Utility classes
 
