@@ -92,9 +92,9 @@ import App from './App.vue'
 - aign-items-center / ai-center
 - direction-column / d-col
 - direction-row / d-row
-- **flex / f** *(display: flex)*
-- **flex-wrap / f-wrap** *(flex-wrap: wrap)*
-- **flex-nowrap / f-nowrap** *(flex-wrap: nowrap)*
+- flex / f *(display: flex)*
+- flex-wrap / f-wrap *(flex-wrap: wrap)*
+- flex-nowrap / f-nowrap *(flex-wrap: nowrap)*
 - justify-center / j-center
 - justify-end / j-end
 - justify-space-around / j-space-around
@@ -103,6 +103,9 @@ import App from './App.vue'
 
 ##### Spacing classes
 
+- h-auto / height-auto *(height: auto)*
+- h-100 / height-100 *(height: 100%)*
+- h-100vh / height-100vh *(height: 100vh)*
 - m-1
 - m-2
 - m-half
@@ -111,11 +114,11 @@ import App from './App.vue'
 - mb-2
 - mb-half
 - mb-quarter
-- **mh-auto** *(margin-horizontal-auto)*
-- **mh-1** *(margin-horizontal-1)*
-- **mh-2** *(margin-horizontal-2)*
-- **mh-half** *(margin-horizontal-half)*
-- **mh-quarter** *(margin-horizontal-quarter)*
+- mh-auto *(margin-horizontal: auto)*
+- mh-1 *(margin-horizontal: var(--spacer))*
+- mh-2 *(margin-horizontal: calc(var(--spacer) * 2))*
+- mh-half *(margin-horizontal: var(--spacer-half))*
+- mh-quarter *(margin-horizontal: var(--spacer-quarter))*
 - ml-1
 - ml-2
 - ml-half
@@ -128,11 +131,11 @@ import App from './App.vue'
 - mt-2
 - mt-half
 - mt-quarter
-- **mv-auto** *(margin-vertical-auto)*
-- **mv-1** *(margin-vertical-1)*
-- **mv-2** *(margin-vertical-2)*
-- **mv-half** *(margin-vertical-half)*
-- **mv-quarter** *(margin-vertical-quarter)*
+- mv-auto *(margin-vertical: auto)*
+- mv-1 *(margin-vertical: var(--spacer))*
+- mv-2 *(margin-vertical: calc(var(--spacer) * 2))*
+- mv-half *(margin-vertical: var(--spacer-half))*
+- mv-quarter *(margin-vertical: var(--spacer-quarter))*
 - p-1
 - p-2
 - p-half
@@ -141,6 +144,11 @@ import App from './App.vue'
 - pb-2
 - pb-half
 - pb-quarter
+- ph-auto *(padding-horizontal: auto)*
+- ph-1 *(padding-horizontal: var(--spacer))*
+- ph-2 *(padding-horizontal: calc(var(--spacer) * 2))*
+- ph-half *(padding-horizontal: var(--spacer-half))*
+- ph-quarter *(padding-horizontal: var(--spacer-quarter))*
 - pl-1
 - pl-2
 - pl-half
@@ -153,6 +161,14 @@ import App from './App.vue'
 - pt-2
 - pt-half
 - pt-quarter
+- pv-auto *(padding-vertical: auto)*
+- pv-1 *(padding-vertical: var(--spacer))*
+- pv-2 *(padding-vertical: calc(var(--spacer) * 2))*
+- pv-half *(padding-vertical: var(--spacer-half))*
+- pv-quarter *(padding-vertical: var(--spacer-quarter))*
+- w-auto / width-auto *(width: auto)*
+- w-100 / width-100 *(width: 100%)*
+- w-100vw / width-100vw *(width: 100vw)*
 
 ##### Tags
 
