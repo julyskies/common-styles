@@ -170,6 +170,20 @@ import App from './App.vue'
 - w-100 / width-100 *(width: 100%)*
 - w-100vw / width-100vw *(width: 100vw)*
 
+##### Font
+
+- fs-1 / font-size-1 *(font-size: var(--spacer))*
+- fs-2 / font-size-2 *(font-size: calc(var(--spacer) * 2))*
+- fs-half / font-size-half *(font-size: var(--spacer-half))*
+
+- fw-100 / font-weight-100
+- fw-200 / font-weight-200
+- fw-300 / font-weight-300
+- fw-400 / font-weight-400
+- fw-500 / font-weight-500
+- fw-600 / font-weight-600
+- fw-700 / font-weight-700
+
 ##### Tags
 
 Margin and padding is removed for all of the tags.
